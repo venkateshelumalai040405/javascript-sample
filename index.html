@@ -161,13 +161,13 @@ function validate(){
 
     }
 
-    else if(document.forms[0].elements[0].value.length>1 == 21){
+    else if(document.forms[0].elements[1].value.length<9){
         alert('Login Sucessfully....');
 
     }
 
-    else if(document.forms[0].elements[0].value.length>=21){
-        alert('password is only 20 characters')
+    else if(document.forms[0].elements[1].value.length>10){
+        alert('password is only 9 characters');
 
     }
 
